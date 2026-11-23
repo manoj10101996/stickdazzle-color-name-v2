@@ -1,0 +1,40 @@
+source_key,source_url,license_status,decision,record_count,status,notes
+jonathantneal,https://raw.githubusercontent.com/jonathantneal/color-names/master/color-names.json,CC0-1.0,include,2331,extracted,Direct hex-to-name mapping.
+cheprasov,https://raw.githubusercontent.com/cheprasov/json-colors/master/colors.json,MIT,include,1302,extracted,JSON records with name and hex.
+colorjs,https://raw.githubusercontent.com/colorjs/color-name/master/index.js,MIT,include,148,extracted,CSS name to RGB mapping in JavaScript.
+codebrainz,https://raw.githubusercontent.com/codebrainz/color-names/master/output/colors.json,unverified,review,807,extracted,No root license file found in the repository check; retain for review only.
+bahamas10,https://raw.githubusercontent.com/bahamas10/css-color-names/master/css-color-names.json,MIT,include,148,extracted,CSS name to hex mapping.
+jennyknuth,https://gist.githubusercontent.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5/raw/colors.json,unverified,review,140,extracted,Gist license not verified; retain for review only.
+thiagodnf,https://raw.githubusercontent.com/thiagodnf/color-palettes/master/data/palettes.json,MIT,exclude,0,extracted,"Contains palette names and swatches, not individual color-name labels."
+omgovich,https://raw.githubusercontent.com/omgovich/colord/master/src/plugins/names.ts,MIT,include,148,extracted,CSS name to hex mapping in TypeScript.
+culori_riso,https://raw.githubusercontent.com/Evercoder/culori-names/master/colors/riso.js,CC-BY-NC-3.0-US,exclude,78,extracted,Source explicitly states non-commercial license; excluded from general training set.
+colblindor,https://raw.githubusercontent.com/CastagnaIT/ColorNameAssistant/master/ColorLists/Colors_Colblindor.json,review-third-party,review,1639,extracted,"Repository is MIT, but color data cites an external source; verify data reuse terms."
+encycolorpedia,https://raw.githubusercontent.com/CastagnaIT/ColorNameAssistant/master/ColorLists/Colors_Encycolorpedia.json,review-third-party,review,1680,extracted,"Repository is MIT, but color data cites an external source; verify data reuse terms."
+htmlcss,https://raw.githubusercontent.com/CastagnaIT/ColorNameAssistant/master/ColorLists/Colors_HTML-CSS.json,review-third-party,review,139,extracted,Repository is MIT; source data terms should be checked separately.
+warner,https://raw.githubusercontent.com/CastagnaIT/ColorNameAssistant/master/ColorLists/Colors_WarnerNomenclature.json,review-third-party,review,120,extracted,"Repository is MIT, but color data cites an external source; verify data reuse terms."
+wikipedia,https://raw.githubusercontent.com/CastagnaIT/ColorNameAssistant/master/ColorLists/Colors_Wikipedia.json,review-third-party,review,889,extracted,"Repository is MIT, but Wikipedia-derived data has separate attribution/terms."
+meodai,https://raw.githubusercontent.com/meodai/colornames-oklab/main/data/names/names.json,MIT,exclude,0,extracted,This supplied file maps IDs to names but does not contain hex values.
+codebrainz_color_names,https://github.com/codebrainz/color-names/blob/master/output/colors.json,unverified,review,807,extracted previously,No root license file verified.
+thiagodnf_color_palettes,https://github.com/thiagodnf/color-palettes/blob/master/data/palettes.json,MIT,exclude,0,already audited,"Palette names and swatches, no individual color-name labels."
+jonathantneal_color_names,https://github.com/jonathantneal/color-names/blob/master/color-names.json,CC0-1.0,already included,2331,duplicate source link,Already in the first batch.
+iaseth_html_color_names_json,https://github.com/iaseth/html-color-names/tree/master/json,MIT,optional_shade_data,1628,extracted,"148 files; generated shade-scale variants, kept separate from named-color training labels."
+cheprasov_json_colors,https://github.com/cheprasov/json-colors/blob/master/colors.json,MIT,already included,1302,duplicate source link,Already in the first batch.
+hdngr_color_gist,https://gist.github.com/hdngr/bb548a2b55e8a53f06ec#file-colors-json,unverified,review,149,extracted,Gist license not verified.
+meodai_color_names_csv,https://github.com/meodai/color-names/blob/main/src/colornames.csv,MIT,include,32004,extracted,"CSV contains name, hex, and a good-name flag; 5,000 rows marked x."
+comficker_pixel_art_palettes,https://github.com/comficker/pixel-art-palettes/tree/main/data/json,MIT,exclude,0,not imported,Palette repository path; palette colors are not individual color-name labels.
+jonasjacek_colors,https://github.com/jonasjacek/colors/blob/master/data.json,CC-BY-SA-4.0,review,256,extracted,Share-alike obligations should be reviewed before model release.
+corpora_xkcd,https://github.com/dariusk/corpora/blob/master/data/colors/xkcd.json,unverified,review,954,extracted,No root license file verified for the repository.
+corpora_wikipedia,https://github.com/dariusk/corpora/blob/master/data/colors/wikipedia.json,unverified,review,1017,extracted,No root license file verified for the repository.
+corpora_web_colors,https://github.com/dariusk/corpora/blob/master/data/colors/web_colors.json,unverified,review,140,extracted,No root license file verified for the repository.
+corpora_palettes,https://github.com/dariusk/corpora/blob/master/data/colors/palettes.json,unverified,exclude,0,inspected,Palettes contain swatches but no individual color-name labels.
+corpora_paints,https://github.com/dariusk/corpora/blob/master/data/colors/paints.json,unverified,exclude,0,inspected,Names and brands but no hex/RGB values in this file.
+corpora_google_material_colors,https://github.com/dariusk/corpora/blob/master/data/colors/google_material_colors.json,unverified,review_optional_shades,254,extracted,Hue family plus shade-scale values; no verified license.
+corpora_fictional,https://github.com/dariusk/corpora/blob/master/data/colors/fictional.json,unverified,exclude,0,inspected,Fictional color names without hex values.
+corpora_dulux,https://github.com/dariusk/corpora/blob/master/data/colors/dulux.json,unverified,review,4224,extracted,Names and RGB values; no root license file verified.
+corpora_crayola,https://github.com/dariusk/corpora/blob/master/data/colors/crayola.json,unverified,review,120,extracted,Name and hex records; no root license file verified.
+ozh_github_colors,https://github.com/ozh/github-colors/blob/master/colors.json,WTFPL,exclude_domain_labels,765,extracted,"Labels identify GitHub technologies/services, not color names."
+gekidoslair_mastercolorlist_gist,https://gist.github.com/gekidoslair/72058193cb2fc8cbc182,unverified,review,807,extracted,Gist license not verified.
+colornames_org_voted,https://colornames.org/download/colornames.zip,CC0-1.0 (declared by source documentation),include_optional_separate,4600533,snapshot_2026-11-23,"Community-voted best-name export with votes; crowd labels may be informal, evolving, or inconsistent. Kept separate from curated core training pairs."
+coloripedia_data,https://github.com/pacel1/coloripedia-data (data/colors.json),CC-BY-4.0,include_optional_separate,312,snapshot_2026-11-23,Curated JSON with direct name/hex plus descriptive metadata; preserve attribution; kept separate from core.
+dictionary_of_colour_combinations,https://github.com/vtmade/dictionary-of-colour/blob/master/colors.json,MIT,include_optional_separate,159,snapshot_2026-11-23,159 named colors from A Dictionary of Colour Combinations; JSON has names and hex/RGB/LAB plus palette references. Hex conversions approximate printed swatches.
+huekit_colors,https://huekit.co/api/v1/colors.json,CC0-1.0,include_optional_separate,254,snapshot_2026-11-23,Curated JSON with names, hex/RGB, CIELAB/LCH/OKLCH, ramps, contrast metadata, and nearest-color fields; kept separate from core training pairs.
